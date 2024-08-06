@@ -1,0 +1,20 @@
+{
+    "name": "jszsl/pay",
+    "description": "Access to alipay,wechat official payment",
+    "autoload": {
+        "psr-4": {
+            "jszsl\\pay\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "zsl",
+            "email": "jszsl001@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.5",
+        "alipaysdk/easysdk": "^2.2",
+        "wechatpay/wechatpay": "^1.4"
+    }
+}
